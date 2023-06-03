@@ -12,7 +12,7 @@ export default function ContactComponent() {
   const [agreed, setAgreed] = useState(false);
 
   return (
-    <div className="isolate bg-white px-6 pt-24 pb-12 sm:pt-32 sm:pb-12 lg:px-8">
+    <div className="isolate bg-white px-6 pt-24 pb-12 sm:pt-32 sm:pb-32 lg:px-8">
       <div
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
         aria-hidden="true"
