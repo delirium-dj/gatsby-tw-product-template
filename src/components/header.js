@@ -19,11 +19,11 @@ export default function Header() {
     <header className="fixed inset-x-0 top-0 z-50 backdrop-blur-lg bg-gradient-to-br from-[#9089fc]/40 via-white/80 to-white/40 lg:bg-gradient-to-r lg:from-white/60 lg:via-white/70 lg:to-white/80 border-b-2">
       {/*  */}
       <nav
-        className="flex items-center mx-auto justify-between p-6 lg:px-16 max-w-7xl"
+        className="flex items-center mx-auto justify-between p-6 lg:px-16 h-20 max-w-7xl"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
-          <Link to="/" className="-m-1.5 p-1.5">
+        <div className="flex lg:flex-">
+          <Link to="/" className="-m-1.5 p-1.5 sm:hidden lg:flex">
             {/* <span className="sr-only">Your Company</span> */}
             <Link to="/">
               <StaticImage
@@ -52,7 +52,9 @@ export default function Header() {
             <Link
               key={item.name}
               to={item.href}
-              className={"text-md font-semibold leading-6 text-gray-900"}
+              className={
+                "text-md font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4"
+              }
             >
               {item.name}
             </Link>
@@ -74,14 +76,17 @@ export default function Header() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-50" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto backdrop-blur-lg bg-[#9089fc]/80 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto backdrop-blur-lg bg-gradient-to-tl from-[#ff80b5]/70 to-[#9089fc]/80 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto sm:hidden"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
+              <StaticImage
+                className="w-8 bg-white rounded-full"
+                src="../images/icongatsbyjs.svg"
+                alt="GatsbyJS"
+                width={32}
+                height={32}
+                formats={["AUTO", "WEBP", "AVIF"]}
               />
             </Link>
             <button

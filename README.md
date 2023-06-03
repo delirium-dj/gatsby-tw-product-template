@@ -21,21 +21,23 @@
 
     - Creating `layout.js` in `src/styles/layout.js`.
     - Integrating all the components into `layout.js`.
-    - Adding custom branding (logo's and images).
     - Setting up GraphQL schema for GatsbyImage.
+    - Create a Blog section.
+    - Integrate [Gatsby Head API](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/) into pages and new schema for Blog section.
+    - Fetch external data with `gatsby-node.js` and query it via GraphQL.
 
 3.  **Lorem!**
 
     Ipsum
 
-4.  **Learn more**
+4.  **Resources:**
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [GatsbyJS Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [GatsbyJS Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [GatsbyJS How-to Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
     - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [GatsbyJS Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [GatsbyJS Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
     - [Tailwind CSS](https://tailwindcss.com/brand)
     - [Tailwind UI components](https://tailwindui.com/components/preview)
     - [Јamstack Makers](https://jamstackmakers.com/)
@@ -44,4 +46,4 @@
 
 Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/delirium-dj/gatsby-tw-product-template)

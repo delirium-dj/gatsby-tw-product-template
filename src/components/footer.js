@@ -32,57 +32,57 @@ export default function Footer() {
             {" "}
             Copyright © 2023 - All right reserved
           </p>
-          <p className="sm:hidden text-lg"> © 2023</p>
+          <p className="sm:hidden text-md"> © 2023</p>
         </div>
       </div>
       <div className="flex gap-4 md:place-self-center md:justify-self-end">
         <a href="https://www.gatsbyjs.com/">
           <StaticImage
-            className="w-8"
+            className="w-6"
             src="../images/icongatsbyjs.svg"
             alt="GatsbyJS"
-            width={32}
-            height={32}
+            width={24}
+            height={24}
             formats={["AUTO", "WEBP", "AVIF"]}
           />
         </a>
-        <a href="https://www.gatsbyjs.com/">
+        <a href="https://graphql.org/">
           <StaticImage
-            className="w-8"
+            className="w-6"
             src="../images/icongraphql.svg"
             alt="GatsbyJS"
-            width={32}
-            height={32}
+            width={24}
+            height={24}
             formats={["AUTO", "WEBP", "AVIF"]}
           />
         </a>
         <a href="https://tailwindcss.com/brand">
           <StaticImage
-            className="w-8"
+            className="w-6"
             src="../images/icontailwind.svg"
             alt="Tailwind CSS"
-            width={32}
-            height={32}
+            width={24}
+            height={24}
             formats={["AUTO", "WEBP", "AVIF"]}
           />
         </a>
-        <a href="https://www.github.com/">
+        <a href="https://github.com/delirium-dj/gatsby-tw-product-template">
           <StaticImage
-            className="w-8"
+            className="w-6"
             src="../images/icongithub.svg"
             alt="GitHub"
-            width={32}
-            height={32}
+            width={24}
+            height={24}
             formats={["AUTO", "WEBP", "AVIF"]}
           />
         </a>
         <a href="https://www.netlify.com/">
           <StaticImage
-            className="w-8"
+            className="w-6"
             src="../images/iconnetlify.svg"
             alt="Netlify"
-            width={32}
-            height={32}
+            width={24}
+            height={24}
             formats={["AUTO", "WEBP", "AVIF"]}
           />
         </a>
