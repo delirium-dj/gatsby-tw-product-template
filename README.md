@@ -23,7 +23,7 @@
     - Integrating all the components into `layout.js`.
     - Setting up GraphQL schema for GatsbyImage.
     - Create a Blog section.
-    - Integrate [Gatsby Head API](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/) into pages and new schema for Blog section.
+    - Integrate [Gatsby Head API](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/) into ~~pages and~~ new schema for Blog section.
     - Fetch external data with `gatsby-node.js` and query it via GraphQL.
 
 3.  **Lorem!**

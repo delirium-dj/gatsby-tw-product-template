@@ -25,3 +25,4 @@ export default function Index() {
 }
 
 export const Head = () => <title>Gatsby/Tailwind Product Template</title>;
+<html lang="en" />;
