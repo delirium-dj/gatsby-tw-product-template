@@ -28,7 +28,7 @@ export function Head() {
   return (
     <>
       <html lang="en" />
-      <title>Gatsby/Tailwind Product Template</title>
+      <title>v0.1.3 Gatsby/Tailwind Product Template</title>
     </>
   );
 }
