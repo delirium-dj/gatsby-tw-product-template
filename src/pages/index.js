@@ -24,5 +24,11 @@ export default function Index() {
   );
 }
 
-export const Head = () => <title>Gatsby/Tailwind Product Template</title>;
-<html lang="en" />;
+export function Head() {
+  return (
+    <>
+      <html lang="en" />
+      <title>Gatsby/Tailwind Product Template</title>
+    </>
+  );
+}
