@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Product Website
+  Product Website Template
 </h1>
 
 ## 🚀 Quick start
@@ -21,6 +21,7 @@
 
     - Creating `layout.js` in `src/styles/layout.js`.
     - Integrating all the components into `layout.js`.
+    - [Deduplication of SEO](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/)
     - Setting up GraphQL schema for GatsbyImage.
     - Create a Blog section.
     - Integrate [Gatsby Head API](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/) into ~~pages and~~ new schema for Blog section.
