@@ -5,6 +5,19 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://github.com/delirium-dj/gatsby-tailwind-product-template",
     title: "Gatsby/Tailwind Product Template",
+    description:
+      "Attempt to generate easy to use template for Product Websites",
+    author: "DJ Djordjevic",
+    social: [
+      {
+        name: "linkedin",
+        url: "https://www.linkedin.com/in/djodjo123/",
+      },
+      {
+        name: "github",
+        url: "https://github.com/delirium-dj",
+      },
+    ],
   },
   plugins: [
     "gatsby-plugin-image",
@@ -15,7 +28,7 @@ module.exports = {
           formats: ["auto", "webp", "avif"],
           placeholder: "blurred",
           quality: 100,
-          breakpoints: [750, 1080, 1366, 1637, 1920],
+          breakpoints: [480, 750, 1080, 1366, 1637, 1920],
           backgroundColor: "transparent",
           tracedSVGOptions: {},
           blurredOptions: {},

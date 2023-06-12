@@ -35,12 +35,12 @@
 
 4.  **Resources:**
 
-    - [GatsbyJS Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [GatsbyJS Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [GatsbyJS How-to Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [GatsbyJS Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [GatsbyJS Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - [GatsbyJS Documentation](https://www.gatsbyjs.com/docs/)
+    - [GatsbyJS Tutorials](https://www.gatsbyjs.com/docs/tutorial/)
+    - [GatsbyJS How-to Guides](https://www.gatsbyjs.com/docs/how-to/)
+    - [GatsbyJS Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/)
+    - [GatsbyJS Markdown Syntax](https://www.gatsbyjs.com/docs/reference/markdown-syntax/)
+    - [GatsbyJS Plugin Library](https://www.gatsbyjs.com/plugins/)
     - [Tailwind CSS](https://tailwindcss.com/brand)
     - [Tailwind UI components](https://tailwindui.com/components/preview)
     - [Јamstack Makers](https://jamstackmakers.com/)
