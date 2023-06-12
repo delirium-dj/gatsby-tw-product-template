@@ -19,12 +19,14 @@
 
 2.  **To be done:**
 
+    - Adding metadata to pages to prevent Lighthose SEO penalty (92/100).<br />(_"`Document does not have a meta description`"_)
+    - Fixing the way Gatsby preload fonts - Lighthouse Performance penalty.<br />(Console Log error - _"`...preloaded with link preload was not used within a few seconds...`"_)
     - Creating `layout.js` in `src/styles/layout.js`.
     - Integrating all the components into `layout.js`.
-    - [Deduplication of SEO](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/)
-    - Setting up GraphQL schema for GatsbyImage.
     - Create a Blog section.
+    - [Deduplication of SEO](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/)
     - Integrate [Gatsby Head API](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/) into ~~pages and~~ new schema for Blog section.
+    - Setting up GraphQL schema for GatsbyImage.
     - Fetch external data with `gatsby-node.js` and query it via GraphQL.
 
 3.  **Lorem!**
